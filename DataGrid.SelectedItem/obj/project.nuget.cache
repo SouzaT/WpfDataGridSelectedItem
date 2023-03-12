@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XbHZoSlHcR9MhAio7+x6U4l/A7wEe5rRcjMqUlV6UuGNTa6PMzC6BxEzpYmD0SIFB4Q3jIK+ZR6fNTMDNbYKTw==",
+  "dgSpecHash": "qbuwF0hsQrW98fzZHf+0RaeaME5rhLXHDIRbTWnW6knC0KJ5TO5hHMqz1whQydmm06/nsNzzqzcmwtNakR++yA==",
   "success": true,
   "projectFilePath": "D:\\Estudos\\SampleProjects\\WpfDataGridSelectedItem\\DataGrid.SelectedItem\\DataGrid.SelectedItem.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\souza\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\souza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\souza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\souza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -24,7 +24,5 @@ namespace DataGrid.SelectedItem
         {
             InitializeComponent();
         }
-
-
     }
 }

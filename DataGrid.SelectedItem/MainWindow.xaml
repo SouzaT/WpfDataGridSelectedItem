@@ -14,9 +14,14 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
         <DataGrid
             Grid.Column="0"
             Grid.Row="0"
+            Grid.RowSpan="2"
             ItemsSource="{Binding PersonList.Persons }"
             AutoGenerateColumns="False"
             SelectedItem="{Binding SelectedRow, Mode=TwoWay}"
@@ -27,7 +32,24 @@
                 <DataGridTextColumn Binding="{Binding LastName}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Label Grid.Column="1" 
+        <Label Grid.Column="1" Grid.Row="1"
             Content="{Binding SelectedRow.FirstName}"/>
+        <DatePicker Grid.Row="0" Grid.Column="1" 
+                    SelectedDate="{Binding SelectedDate}" />
+        <ListBox 
+            Grid.Row="1" 
+            Grid.Column="1"
+            ItemsSource="{Binding PersonList.Persons}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox 
+                        Content="{Binding FirstName}" 
+                        IsChecked="{Binding IsChecked}" 
+                        Command="{Binding DataContext.SelectedDateChangedCommand,
+                        RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}"
+                        CommandParameter="{Binding}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </Grid>
 </Window>

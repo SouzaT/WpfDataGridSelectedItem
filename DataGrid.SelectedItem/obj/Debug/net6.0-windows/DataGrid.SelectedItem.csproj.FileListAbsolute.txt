@@ -2,7 +2,6 @@ D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debu
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debug\net6.0-windows\DataGrid.SelectedItem.deps.json
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debug\net6.0-windows\DataGrid.SelectedItem.runtimeconfig.json
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debug\net6.0-windows\DataGrid.SelectedItem.dll
-D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debug\net6.0-windows\ref\DataGrid.SelectedItem.dll
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\bin\Debug\net6.0-windows\DataGrid.SelectedItem.pdb
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\DataGrid.SelectedItem.csproj.AssemblyReference.cache
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\MainWindow.g.cs
@@ -20,3 +19,4 @@ D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debu
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\ref\DataGrid.SelectedItem.dll
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\DataGrid.SelectedItem.pdb
 D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\DataGrid.SelectedItem.genruntimeconfig.cache
+D:\Estudos\SampleProjects\WpfDataGridSelectedItem\DataGrid.SelectedItem\obj\Debug\net6.0-windows\refint\DataGrid.SelectedItem.dll
